@@ -15,7 +15,7 @@ header {
   background-color: #000;
   color: #fff;
   padding: 20px 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para o cabeçalho */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .caixa {
@@ -51,11 +51,11 @@ nav ul li a {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
-  transition: color 0.3s ease, text-decoration 0.3s ease; /* Transição para links de navegação */
+  transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #E10600; /* Cor da F1 no hover */
+  color: #E10600;
   text-decoration: underline;
 }
 
@@ -74,7 +74,7 @@ form legend {
   text-align: left;
   font-size: 20px;
   margin-bottom: 10px;
-  color: #333; /* Cor para labels e legends */
+  color: #333;
 }
 
 .input-padrao {
@@ -85,12 +85,12 @@ form legend {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 5px;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição para inputs */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .input-padrao:focus {
-  border-color: #E10600; /* Borda vermelha no foco */
-  box-shadow: 0 0 5px rgba(225, 6, 0, 0.5); /* Sombra no foco */
+  border-color: #E10600;
+  box-shadow: 0 0 5px rgba(225, 6, 0, 0.5);
   outline: none;
 }
 
@@ -103,7 +103,7 @@ fieldset {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Sombra leve para fieldset */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .checkbox {
@@ -114,19 +114,19 @@ fieldset {
 .enviar {
   width: 25%;
   padding: 15px 0;
-  background: #E10600; /* Cor vermelha da F1 */
+  background: #E10600;
   color: white;
   font-weight: bold;
   font-size: 18px;
   border: none;
   border-radius: 5px;
-  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transição completa para o botão */
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o botão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .enviar:hover {
-  background: #FF2D00; /* Vermelho mais vibrante no hover */
+  background: #FF2D00;
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
@@ -136,13 +136,13 @@ fieldset {
   padding: 50px 0;
   background-color: #000;
   color: #fff;
-  border-bottom: 5px solid #E10600; /* Cor da F1 */
+  border-bottom: 5px solid #E10600;
 }
 
 .hero h1 {
   font-size: 3rem;
   margin-top: 20px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para título principal */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
@@ -160,8 +160,8 @@ fieldset {
 
 .pilotos h1 {
   font-size: 2.5rem;
-  color: #222; /* Cor mais escura para títulos de seção */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  color: #222;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .pilotos p {
@@ -181,17 +181,16 @@ fieldset {
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição para o item completo */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .piloto-item:hover {
-  transform: translateY(-5px); /* Efeito de "levantar" */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2),
+              -5px -5px 10px rgba(225, 6, 0, 0.3);
 }
 
 .piloto-item.maior {
-  /* Se essa classe era para escala menor (0.9), precisa ser ajustada ou removida se não mais usada */
-  /* transform: scale(0.9); */ 
 }
 
 .piloto-item img {
@@ -199,14 +198,14 @@ fieldset {
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
-  transition: filter 0.3s ease, opacity 0.3s ease; /* Transição para filtros e opacidade */
-  filter: grayscale(10%); /* Filtro sutil inicial */
-  opacity: 0.95; /* Opacidade sutil inicial */
+  transition: filter 0.3s ease, opacity 0.3s ease;
+  filter: grayscale(10%);
+  opacity: 0.95;
 }
 
 .piloto-item img:hover {
-  filter: grayscale(0%); /* Remove o filtro no hover */
-  opacity: 1; /* Opacidade total no hover */
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 .piloto-item h3 {
@@ -274,13 +273,13 @@ fieldset {
   height: auto;
   border-radius: 10px;
   margin-bottom: 25px;
-  transition: transform 0.3s ease, filter 0.3s ease; /* Transição para imagem da notícia */
-  filter: saturate(90%); /* Saturação leve */
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: saturate(90%);
 }
 
 .imagem-noticia img:hover {
-  transform: scale(1.01); /* Leve zoom */
-  filter: saturate(100%); /* Saturação total no hover */
+  transform: scale(1.01);
+  filter: saturate(100%);
 }
 
 .conteudo-noticia p {
@@ -345,12 +344,12 @@ fieldset {
   border-radius: 8px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, filter 0.3s ease;
-  filter: brightness(95%); /* Leve escurecimento inicial */
+  filter: brightness(95%);
 }
 
 .noticia-detalhada .imagem-noticia img:hover {
   transform: scale(1.01);
-  filter: brightness(100%); /* Brilho normal no hover */
+  filter: brightness(100%);
 }
 
 .outros-artigos {
@@ -381,12 +380,12 @@ fieldset {
 
 .outros-artigos a {
   text-decoration: none;
-  color: #E10600; /* Cor da F1 */
+  color: #E10600;
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .outros-artigos a:hover {
-  color: #FF2D00; /* Cor da F1 mais vibrante no hover */
+  color: #FF2D00;
   text-decoration: underline;
 }
 
@@ -405,17 +404,17 @@ footer a {
 }
 
 footer a:hover {
-  color: #E10600; /* Cor da F1 */
+  color: #E10600;
   text-decoration: underline;
 }
 
 footer img {
   width: 150px;
-  transition: transform 0.5s ease; /* Transição para o logo no footer */
+  transition: transform 0.5s ease;
 }
 
 footer img:hover {
-  transform: rotate(5deg) scale(1.05); /* Pequena rotação e zoom no hover */
+  transform: rotate(5deg) scale(1.05);
 }
 
 .copyright {
@@ -423,7 +422,6 @@ footer img:hover {
   margin-top: 20px;
 }
 
-/* Estilo para vídeos e mapas incorporados */
 .iframe-container {
   margin: 30px auto;
   max-width: 800px;
@@ -455,13 +453,13 @@ footer img:hover {
   }
 
   nav {
-    position: static; /* Ajuste para navegação responsiva */
+    position: static;
     text-align: center;
     margin-top: 15px;
   }
 
   nav ul {
-    flex-direction: column; /* Links em coluna */
+    flex-direction: column;
     gap: 10px;
   }
 
@@ -470,7 +468,7 @@ footer img:hover {
   }
 
   main {
-    width: 95%; /* Ajusta a largura principal */
+    width: 95%;
     padding: 20px 10px;
   }
 
@@ -483,13 +481,13 @@ footer img:hover {
   }
 
   .pilotos-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 15px;
   }
 
   .piloto-item.maior {
-    transform: scale(1); /* Remove a escala no mobile se não for mais desejado */
+    transform: scale(1);
   }
 
   .noticia-principal h1 {
@@ -531,7 +529,7 @@ footer img:hover {
 
   .input-padrao,
   .enviar {
-    width: 100%; /* Campos e botão de formulário ocupam 100% da largura */
+    width: 100%;
   }
 
   .outros-artigos {
