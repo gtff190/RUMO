@@ -2,69 +2,72 @@
 <html lang="pt-br">
 
 <head charset="UTF-8">
-  <title>Contato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Rumo ao Pódio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <div class="caixa">
-      <h1><img src="logo.png" alt="Logo Rumo ao Pódio"></h1>
-
-      <nav>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="noticias.html">Notícias</a></li>
-          <li><a href="pilotos.html">Pilotos</a></li>
-          <li><a href="equipes.html">Equipes</a></li>
-          <li><a href="calendario.html">Calendário</a></li>
-        </ul>
-      </nav>
+    <div class="logo">
+      <img src="logo.png" alt="Logo Rumo ao Pódio">
     </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="pilotos.html">Pilotos</a></li>
+        <li><a href="equipes.html">Equipes</a></li>
+        <li><a href="calendario.html">Calendário</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
     <form>
-      <label for="nomesobrenome">Nome e sobrenome</label>
+      <h2>Grid de Contato: Fale com Nossa Equipe!</h2>
+
+      <label for="nomesobrenome">Seu Nome Completo (do Piloto ou Chefe de Equipe)</label>
       <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+      <label for="email">Seu E-mail (para a comunicação via rádio)</label>
+      <input type="email" id="email" class="input-padrao" required placeholder="seuemail@largada.com">
 
-      <label for="telefone">Telefone</label>
+      <label for="telefone">Seu Telefone (linha direta com o Box)</label>
       <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
 
-      <label for="mensagem">Mensagem</label>
+      <label for="mensagem">Sua Mensagem (um briefing para a equipe)</label>
       <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
       <fieldset>
-        <legend>Como prefere o nosso contato?</legend>
+        <legend>Como prefere o nosso pit stop para contato?</legend>
 
-        <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato"> Email</label>
-        <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato">
-          Telefone</label>
-        <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato" checked>
-          Whatsapp</label>
+        <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato"> Via Rádio (E-mail)</label>
+        <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato"> Telefone do Box</label>
+        <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato" checked> Pelo Capacete (WhatsApp)</label>
       </fieldset>
 
       <fieldset>
-        <legend>Qual horário prefere ser atendido?</legend>
+        <legend>Melhor horário para a sua bandeira quadriculada?</legend>
         <select>
-          <option>Manhã</option>
-          <option>Tarde</option>
-          <option>Noite</option>
+          <option>Treino da Manhã</option>
+          <option>Classificação da Tarde</option>
+          <option>Corrida da Noite</option>
         </select>
       </fieldset>
 
-      <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+      <label class="checkbox"><input type="checkbox"> Deseja receber novidades exclusivas da pole position por e-mail?</label>
 
-      <input type="submit" value="Enviar formulário" class="enviar">
+      <input type="submit" value="Acelerar! (Enviar)" class="enviar">
     </form>
   </main>
 
   <footer>
     <img src="logobranco.png" alt="Logo Rumo ao Pódio">
-    <p class="copyright">Copyright Rumo ao Pódio - 2022</p>
+    <p class="copyright">Copyright Rumo ao Pódio - 2025</p>
   </footer>
 </body>
 
